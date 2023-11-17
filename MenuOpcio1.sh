@@ -26,10 +26,12 @@ opcio_1=1
 while [ $opcio_1 -ne 0 ]
 do
 Opcio1
-case $ocpio_1 in
+case $opcio_1 in
 0)clear;;
 
-1)clear;;
+1)clear
+./Opcio1-1.sh $1
+clear;;
 
 2)clear;;
 
